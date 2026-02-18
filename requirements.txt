@@ -1,3 +1,6 @@
 moviepy==1.0.3
-python-telegram-bot==21.7
 opencv-python==4.10.0.84
+maxapi==0.9.13
+numpy==1.26.4
+imageio-ffmpeg==0.4.9
+proglog==0.1.10
