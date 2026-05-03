@@ -30,7 +30,7 @@ async def cleanup_files(*filenames):
 
 async def start(event: MessageCreated):
     sender = getattr(event.from_user, 'first_name', "Пользователь")
-    await event.message.answer(f"Привет, {sender}! 👋\nОтправь видео, и я сделаю кружок в оригинальном качестве.")
+    await event.message.answer(f"Привет, {sender}! 👋\Отправь видео, и я сделаю кружок в оригинальном качестве.")
 
 async def process_media(event: MessageCreated):
     body = getattr(event.message, 'body', None)
