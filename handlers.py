@@ -86,7 +86,7 @@ async def process_media(event: MessageCreated):
             'height': height
         }
         
-        await status_msg.edit(text=f"✅ Видео {width}x{height} получено. Нажми 'обработать'.")
+        await status_msg.edit(text=f"✅ Видео {width}x{height} получено. Напиши 'обработать'.")
 
     except Exception as e:
         logging.error(f"Prepare error: {e}")
